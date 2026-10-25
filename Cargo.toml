@@ -1,0 +1,15 @@
+[workspace]
+resolver = "3"
+members = [
+    "experiments/exp01_subbit_entropy",
+    "experiments/exp02_zero_skip_cycles",
+    "experiments/exp03_iso_memory_bnn_vs_tnn",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[workspace.dependencies]
+tars = { path = "../tars" }

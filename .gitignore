@@ -1,0 +1,10 @@
+# Rust build artifacts
+/target
+
+# Editor noise
+*.swp
+*~
+.idea/
+.vscode/
+
+# NOTE: Cargo.lock IS committed — a workspace of binaries keeps a reproducible lock.

@@ -1,0 +1,8 @@
+[package]
+name = "exp03_iso_memory_bnn_vs_tnn"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[dependencies]
+tars = { workspace = true }

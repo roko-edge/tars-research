@@ -1,0 +1,8 @@
+[package]
+name = "exp01_subbit_entropy"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[dependencies]
+tars = { workspace = true }
